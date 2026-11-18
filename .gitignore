@@ -1,0 +1,24 @@
+# macOS metadata
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local FFmpeg binaries (downloaded via setup_ffmpeg.sh)
+bin/
+*.zip
+*.zip.sha256
+
+# Temporary conversion artifacts
+.*.converting.mp4
+.*.converting.mov
+
+# App build scratch
+make_icon
+AppIcon.iconset/
